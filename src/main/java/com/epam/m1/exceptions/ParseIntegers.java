@@ -27,6 +27,9 @@ public class ParseIntegers {
             } catch (NumberFormatException e) {
                 if (!next.isEmpty()) {
                     justWords += next;
+                    if (words.hasNext()) {
+                        justWords += " ";
+                    }
                 }
             }
         }
