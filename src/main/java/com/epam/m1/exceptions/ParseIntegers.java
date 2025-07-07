@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Complete the code, parse integers, calculate the sum of numbers in the WORDS, join strings with
+ * Complete the code, parse integers, calculate the sum of n˘umbers in the WORDS, join strings with
  * space delimiter
  */
 public class ParseIntegers {
@@ -34,7 +34,7 @@ public class ParseIntegers {
             }
         }
         System.out.println("Sum is " + sum);
-        System.out.println("Just words:" + justWords);
+        System.out.println("Just words: " + justWords);
     }
 }
 
